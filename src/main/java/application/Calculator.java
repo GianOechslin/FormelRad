@@ -51,5 +51,13 @@ public class Calculator {
 	
 	/* Hier die Methoden mit den Formlen hinzufügen
 	 */
-	
+	public double pAusRUndI(double r, double i){
+		return i*i*r;
+	}
+	public double pAusIUndU(double i,double u){
+		return i*u;
+	}
+	public double pAusRUndU(double r, double u){
+		return u*u/r;
+	}
 }
